@@ -23,12 +23,17 @@ header {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    color: black;
+    color: whitesmoke;
     overflow: hidden;
 }
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
 
 header h1 {
-    padding: 4.8cm 0 0 0;
+    padding: 4.2cm 0 0 0;
 }
 
 .menu,
@@ -55,6 +60,9 @@ a:active {
 
 h2 {
     font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+   
 }
 
 h1,
@@ -88,13 +96,6 @@ td {
 th {
     text-align: center;
 }
-.foto {
-    width: 20%;
-    border: 2px solid #1f1e1e;
-    border-radius: 10px;
-}
-
-
 
 .uvodfoto {
     width: 20%;
@@ -103,11 +104,7 @@ th {
     float: left;
 }
 
-.fotohead {
-    width: 300px;
-    border-radius: 50%;
-    float: left;
-}
+
 
 
 footer {
@@ -121,3 +118,4 @@ footer {
 .zajmy {
     background-color: #3a341b17;
 }
+
